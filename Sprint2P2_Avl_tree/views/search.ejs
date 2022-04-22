@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <%- include('./partials/header.ejs') %> 
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <h1>AVL Binary Search Tree</h1><br>
+     <h2>Please Insert a Host of Comma Separated Numbers to get a 
+       Tree Representation in Return </h2>
+    <div class="search-container">
+      <form action="/tree" method ="Post">
+        <input 
+          type="text"
+          placeholder="Input.."
+          name="input"
+          value=""
+        />
+        <button id="line" type="submit">Submit</button>
+        <button><a id="line" href="/results">Saved Database Results</a></button>
+        <button><a id="line" href="/">Home Page</a></button>
+      </form>
+    </div>
+    
+  </body>
+  <%- include('./partials/footer.ejs') %>
+</html>

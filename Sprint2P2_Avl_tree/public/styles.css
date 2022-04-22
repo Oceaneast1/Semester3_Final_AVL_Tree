@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+body{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1200px;
+}
+
+
+
+a:hover {
+  color: grey;
+}
+p, h1, h2, h3, a, ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #222;
+}
+/* nav & footer styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav li{
+  list-style-type: none;
+  margin-left: 20px;
+}
+nav h1{
+  font-size: 3em;
+}
+nav p, nav a{
+  color: #777;
+  font-weight: 300;
+  padding-top: 5px;
+}
+footer{
+  color: #777;
+  text-align: center;
+  margin: 80px auto 20px;
+}
+h2{
+  margin-bottom: 20px;
+}
+h3{
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+.content{
+  margin-left: 20px;
+}
+.create form{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.create input,
+.create textarea{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+.create label{
+  display: block;
+  margin-top: 24px;
+}
+textarea{
+  height: 120px;
+}
+.create button{
+  margin-top: 20px;
+  background: crimson;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px;
+  font-size: large;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  max-width: 120px;
+  box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display:block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.store{
+  display: inline-block;
+  margin: auto;
+}
+.storedetails{
+  display: flex;
+  justify-content: left;
+}
+#gin{
+  width: 100px;
+  font-size: large;
+  font-weight: bold;
+}
+.text{
+  font-weight: bold;
+  width: 100px;
+  font-size: large;
+}
+#line{
+font-weight: bold;
+}
+
+/* Tell the boys of these changes April 15 */
+
+#one{
+
+  background: rgb(145, 145, 243);
+  height: 35px;
+  
+  }
+  
+  /* Tell the boys of these changes April 15 */
+  
+  #two{
+  
+  background: rgb(131,186,95);
+  
+  height: 35px;
+  
+  }
+  #six{
+    width: 200px;
+    height: 104px;
+  }
+  #seven{
+    width: 200px;
+    height: 104px;
+  }
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 15px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+}
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 10%;
+  height: 6.7%;
+  padding: 11px;
+  background: #04AA6D;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  /* border-left: none; Prevent double borders */
+  cursor: pointer;
+}
+form.example button:hover {
+  background:#3e8e41;
+}
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+/* Green */
+.success {
+  color: green;
+}
+.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.boxed-results {
+
+  border: 1px solid black;
+  
+  padding: 0.5rem;
+  
+  }
+/* #bear{
+} */
